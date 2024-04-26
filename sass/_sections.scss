@@ -1,0 +1,139 @@
+.hero {
+
+    background: linear-gradient(134.56deg, rgba(245, 245, 245, 0.5) -23.457%,rgba(245, 245, 245, 0.5) 107.508%);
+    padding: 50px;
+    margin-top: 15px;
+    &__left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        &__desc {
+            h1 {
+                font-size: 72px;
+                font-weight: 900;
+                font-family: sans-serif;
+                span {
+                    color: rgb(70, 163, 88);
+                }
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 500;
+                font-family: sans-serif;
+            }
+
+            p {
+                color: rgb(114, 114, 114);
+                font-size: 18px;
+            }
+        }
+
+        &__btn {
+            width: 140px;
+            padding: 12px;
+            color: white;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            background: rgb(70, 163, 88);
+        }
+    }
+
+    &__right {
+
+    }
+}
+
+.cardsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+    margin-top: 80px;
+}
+
+.cards {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+
+    &__card {
+        width: 260px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        transition: .4s;
+
+        &__img img {
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+            border-radius: 10px;
+        }
+
+        &__desc {
+            h1 {
+                font-size: 20px;
+                font-weight: 400;
+                color: rgb(61, 61, 61);
+            }
+
+            p {
+                font-size: 24px;
+                font-weight: 900;
+                color: rgb(70, 163, 88);
+            }
+        }
+    }
+
+    &__card:hover {
+        transform: translateY(-5%);
+        transition: .4s;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__top {
+    background: rgba(161, 250, 158, 0.3);
+}
+
+.footer__top__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    padding: 30px;
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.footer__bottom {
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+
+.footer__gap {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div {
+    // background: rgb(251, 251, 251);
+    background-color: red;
+}
