@@ -1,0 +1,73 @@
+.router {
+    &__card {
+        display: flex;
+        flex-direction: row;
+        // justify-content: space-between;
+        gap: 200px;
+        padding: 50px;
+
+        &__img  img{
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px 4px gray;
+        }
+
+        &__desc {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        &__dTitle {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+            h1 {
+                font-family: sans-serif;
+                font-size: 46px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 24px;
+            }
+
+            p:first-child {
+                color: rgb(70, 163, 88);
+            }
+        }
+        &_dtitle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        &__btn {
+            width: 140px;
+            height: 40px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            background: rgb(70, 163, 88);
+            color: white;
+        }
+
+    }
+}
+
+.desc {
+    &__title {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        margin-bottom: 10px;
+    }
+
+    &__desc {
+        padding-top: 10px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -113,7 +113,7 @@ nav hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 60px;
 }
@@ -159,7 +159,7 @@ footer {
 .footer__top__wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: black;
   padding: 30px;
 }
@@ -172,7 +172,7 @@ footer {
 
 .footer__bottom {
   margin: 20px auto;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .footer__gap {
@@ -181,6 +181,62 @@ footer {
   gap: 15px;
 }
 
-.div {
-  background-color: red;
+.router__card {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding: 50px;
+}
+.router__card__img img {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 4px gray;
+}
+.router__card__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.router__card__dTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.router__card__dTitle h1 {
+  font-family: sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+}
+.router__card__dTitle p {
+  font-size: 24px;
+}
+.router__card__dTitle p:first-child {
+  color: rgb(70, 163, 88);
+}
+.router__card_dtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.router__card__btn {
+  width: 140px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: rgb(70, 163, 88);
+  color: white;
+}
+
+.desc__title {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+.desc__desc {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
